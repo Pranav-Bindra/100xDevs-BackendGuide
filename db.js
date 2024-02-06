@@ -2,7 +2,7 @@ const { mongoose } = require('mongoose');
 
 // connection string here
 try {
-    mongoose.connect('mongodb+srv://bindra529:qLGia7vJ0tMsoz57@cluster0.lkhy5r8.mongodb.net/xyz');
+    mongoose.connect('');
 } catch (error) {
     console.log(error);
 }
